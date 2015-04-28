@@ -1,0 +1,15 @@
+{
+    "name": "com.ubuntu.developer.derjasper.dicer",
+    "description": "A simple random number generator",
+    "architecture": "all",
+    "title": "Dicer",
+    "hooks": {
+        "dicer": {
+            "apparmor": "dicer.apparmor",
+            "desktop": "dicer.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Jasper Nalbach <jasper@bluetreehouse.de>",
+    "framework": "ubuntu-sdk-14.10"
+}
